@@ -1,4 +1,4 @@
-import { ChainId } from '@xoxo/sdk'
+import { ChainId } from '@xoxoswap/sdk'
 import { createPublicClient, http, PublicClient } from 'viem'
 import { bsc, bscTestnet, goerli, mainnet } from 'viem/chains'
 // 必要な環境変数が設定されているかどうかを確認する
