@@ -19,3 +19,4 @@ export const mediaQueries = {
 export type Breakpoint = keyof typeof breakpoints
 
 export const breakpointNames = Object.keys(breakpoints) as Breakpoint[]
+//レイアウト
