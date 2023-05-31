@@ -1,6 +1,7 @@
 import { createSprinkles, defineProperties } from '@vanilla-extract/sprinkles'
 
 import { Breakpoint, breakpointNames, breakpoints } from './breakpoints'
+
 import { vars } from './vars.css'
 
 const flexAlignment = ['flex-start', 'center', 'start', 'flex-end', 'stretch'] as const
