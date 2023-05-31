@@ -44,3 +44,4 @@ export const responsiveStyle = ({ xs, sm, md, lg, xl, xxl }: ResponsiveStyle): S
       : {}),
   }
 }
+
