@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import { Card } from "../../components";
 
+
 export const StyledCard = styled(Card)<{ isFinished?: boolean }>`
   min-width: 280px;
   max-width: 100%;
