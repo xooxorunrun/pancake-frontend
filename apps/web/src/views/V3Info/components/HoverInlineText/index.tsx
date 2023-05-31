@@ -1,6 +1,7 @@
 import { Text, useTooltip } from '@pancakeswap/uikit'
 import styled from 'styled-components'
 
+
 const TextWrapper = styled.div<{
   margin: boolean
   link: boolean
