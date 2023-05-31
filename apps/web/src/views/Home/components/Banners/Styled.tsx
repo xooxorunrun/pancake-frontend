@@ -1,6 +1,7 @@
 import { Flex, Heading } from '@pancakeswap/uikit'
 import styled from 'styled-components'
 
+
 export const StyledSubheading = styled(Heading)`
   background: -webkit-linear-gradient(#ffd800, #eb8c00);
   font-size: 20px;
