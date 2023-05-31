@@ -12,7 +12,7 @@
 
 import { Router } from 'itty-router'
 import { error, json, missing } from 'itty-router-extras'
-import { wrapCorsHeader, handleCors, CORS_ALLOW } from '@pancakeswap/worker-utils'
+import { wrapCorsHeader, handleCors, CORS_ALLOW } from '@swap/worker-utils'
 import BigNumber from 'bignumber.js'
 import { fetchCakePrice, saveFarms, saveLPsAPR } from './handler'
 import { farmFetcher, requireChainId } from './helper'
