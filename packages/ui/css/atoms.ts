@@ -16,3 +16,4 @@ export const atoms = ({ reset, ...rest }: Atoms) => {
 
   return clsx(resetStyles.base, elementReset, sprinklesClasses)
 }
+
