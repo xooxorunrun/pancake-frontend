@@ -1,5 +1,6 @@
 import styled from 'styled-components'
-import { Text } from '@pancakeswap/uikit'
+import { Text } from '@xoxoswap/uikit'
+
 
 export const OutlineText = styled(Text)<{ defaultType?: boolean }>`
   padding: 0 2px;
