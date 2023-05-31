@@ -1,7 +1,6 @@
 import styled from "styled-components";
 import { Link } from "../../components";
 
-
 export const IfoMessageTextLink = styled(Link)`
   display: inline;
   text-decoration: underline;
