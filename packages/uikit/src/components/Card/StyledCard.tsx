@@ -4,6 +4,7 @@ import { promotedGradient } from "../../util/animationToolkit";
 import { Box } from "../Box";
 import { CardProps } from "./types";
 
+
 interface StyledCardProps extends CardProps {
   theme: DefaultTheme;
 }
