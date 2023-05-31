@@ -1,6 +1,7 @@
 import { LayoutProps, SpaceProps, TypographyProps } from "styled-system";
 import { PropsWithChildren } from "react";
 
+
 interface Props extends SpaceProps, TypographyProps, LayoutProps {
   color?: string;
   bold?: boolean;
