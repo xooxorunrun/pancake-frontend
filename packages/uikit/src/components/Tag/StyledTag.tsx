@@ -4,6 +4,7 @@ import { Colors } from "../../theme/types";
 import { scaleVariants, styleVariants } from "./theme";
 import { TagProps, variants } from "./types";
 
+
 interface ThemedProps extends TagProps {
   theme: DefaultTheme;
 }
