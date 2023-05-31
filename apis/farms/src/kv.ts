@@ -1,4 +1,4 @@
-import { AprMap, FarmWithPrices } from '@pancakeswap/farms'
+import { AprMap, FarmWithPrices } from '@xoxoswap/farms'
 
 const KV_PREFIX = {
   lp: 'lp:',
