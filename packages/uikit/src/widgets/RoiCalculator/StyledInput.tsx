@@ -7,6 +7,7 @@ interface ThemedProps {
   theme: DefaultTheme;
   color?: string;
 }
+  
 
 const getColor = ({ color, theme }: ThemedProps) => {
   return getThemeValue(theme, `colors.${color}`, color);
