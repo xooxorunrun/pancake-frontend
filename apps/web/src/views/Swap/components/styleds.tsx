@@ -1,5 +1,6 @@
-import { ErrorIcon, Flex, Text, AutoColumn } from '@pancakeswap/uikit'
+import { ErrorIcon, Flex, Text, AutoColumn } from '@swap/uikit'
 import styled, { css } from 'styled-components'
+
 
 export const Wrapper = styled(Flex)`
   position: relative;
