@@ -1,7 +1,7 @@
-import { masterChefV3Addresses } from '@xoxo/farms'
-import { ChainId, ERC20Token } from '@xooxo/sdk'
-import { CurrencyAmount } from '@xooxo/swap-sdk-core'
-import { PositionMath } from '@xooxo/v3-sdk'
+import { masterChefV3Addresses } from '@xoxoswap/farms'
+import { ChainId, ERC20Token } from '@xoxoswap/sdk'
+import { CurrencyAmount } from '@xoxo/swap-sdk-core'
+import { PositionMath } from '@xoxoswap/v3-sdk'
 import { gql, GraphQLClient } from 'graphql-request'
 import { Request } from 'itty-router'
 import { error, json } from 'itty-router-extras'
@@ -14,11 +14,11 @@ export const V3_SUBGRAPH_CLIENTS = {
   [ChainId.ETHEREUM]: new GraphQLClient('https://api.thegraph.com/subgraphs/name/pancakeswap/exchange-v3-eth', {
     fetch,
   }),
-  [ChainId.GOERLI]: new GraphQLClient('https://api.thegraph.com/subgraphs/name/pancakeswap/exchange-v3-goerli', {
+  [ChainId.GOERLI]: new GraphQLClient('https://api.thegraph.com/subgraphs/name/xoxoswap/exchange-v3-goerli', {
     fetch,
   }),
-  [ChainId.BSC]: new GraphQLClient('https://api.thegraph.com/subgraphs/name/pancakeswap/exchange-v3-bsc', { fetch }),
-  [ChainId.BSC_TESTNET]: new GraphQLClient('https://api.thegraph.com/subgraphs/name/pancakeswap/exchange-v3-chapel', {
+  [ChainId.BSC]: new GraphQLClient('https://api.thegraph.com/subgraphs/name/xoxokeswap/exchange-v3-bsc', { fetch }),
+  [ChainId.BSC_TESTNET]: new GraphQLClient('https://api.thegraph.com/subgraphs/name/xoxoswap/exchange-v3-chapel', {
     fetch,
   }),
 } satisfies Record<ChainId, GraphQLClient>
