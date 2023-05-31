@@ -1,6 +1,6 @@
 import { Obj } from 'itty-router'
 import { error } from 'itty-router-extras'
-import { createFarmFetcher } from '@pancakeswap/farms'
+import { createFarmFetcher } from '@xoxoswap/farms'
 import { viemProviders } from './provider'
 
 export const farmFetcher = createFarmFetcher(viemProviders)
