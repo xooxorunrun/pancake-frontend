@@ -1,11 +1,11 @@
 /* eslint-disable no-restricted-syntax */
-import { ChainId } from '@xoxoSwap/sdk'
+import { ChainId } from '@xoxoswap/sdk'
 import chunk from 'lodash/chunk'
 import BigNumber from 'bignumber.js'
 import { gql, GraphQLClient } from 'graphql-request'
 import getUnixTime from 'date-fns/getUnixTime'
 import sub from 'date-fns/sub'
-import { AprMap } from '@pancakeswap/farms'
+import { AprMap } from '@xoxoswap/farms'
 import _toLower from 'lodash/toLower'
 //コードは、ブロックの応答を定義するインターフェースです。ブロックの応答は、ブロックの数の配列です。ブロックの数は、文字列として格納されます。
 interface BlockResponse {
@@ -31,7 +31,7 @@ const WEEKS_IN_A_YEAR = 52.1429
 //このコードは、ブロックチェーンに関する情報を取得するために使用されるクライアントオブジェクトを簡単に設定するために使用できます。
 
 const BLOCKS_CLIENT_WITH_CHAIN = {
-  [ChainId.BSC]: 'https://api.thegraph.com/subgraphs/name/pancakeswap/blocks',
+  [ChainId.BSC]: 'https://api.thegraph.com/subgraphs/name/xoxoswap/blocks',
   [ChainId.ETHEREUM]: 'https://api.thegraph.com/subgraphs/name/blocklytics/ethereum-blocks',
   [ChainId.BSC_TESTNET]: '',
   [ChainId.GOERLI]: '',
