@@ -1,7 +1,7 @@
-import { masterChefV3Addresses } from '@pancakeswap/farms'
-import { ChainId, ERC20Token } from '@pancakeswap/sdk'
-import { CurrencyAmount } from '@pancakeswap/swap-sdk-core'
-import { PositionMath } from '@pancakeswap/v3-sdk'
+import { masterChefV3Addresses } from '@xoxo/farms'
+import { ChainId, ERC20Token } from '@xooxo/sdk'
+import { CurrencyAmount } from '@xooxo/swap-sdk-core'
+import { PositionMath } from '@xooxo/v3-sdk'
 import { gql, GraphQLClient } from 'graphql-request'
 import { Request } from 'itty-router'
 import { error, json } from 'itty-router-extras'
@@ -108,7 +108,7 @@ const CACHE_TIME = {
   long: 's-maxage=300, max-age=150, stale-while-revalidate=1200',
 }
 
-// getting active "in-range" liquidity for a pool
+// ゲット アクティブ "インレンジ"　流動性 プール用
 export const handler = async (req: Request, event: FetchEvent) => {
   const cache = caches.default
   const cacheResponse = await cache.match(event.request)
