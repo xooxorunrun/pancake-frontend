@@ -11,3 +11,4 @@ export const copyText = (text: string, cb?: () => void) => {
     cb?.()
   }
 }
+
