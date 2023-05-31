@@ -1,6 +1,7 @@
 /**
  * @type {import("stylelint").ConfigRules}
  */
+
 const commonRules = {
   'alpha-value-notation': null,
   'color-function-notation': null,
