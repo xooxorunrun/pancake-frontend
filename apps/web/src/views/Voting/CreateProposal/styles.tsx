@@ -1,5 +1,6 @@
-import { Box, Text } from '@pancakeswap/uikit'
+import { Box, Text } from '@xoxoswap/uikit'
 import styled from 'styled-components'
+
 
 const BaseLabel = styled.label`
   color: ${({ theme }) => theme.colors.text};
