@@ -3,6 +3,7 @@ import { NormalComponents, SpecialComponents } from "react-markdown/src/ast-to-r
 import { Text } from "../Text";
 import { Heading } from "../Heading";
 
+
 const Table = styled.table`
   margin-bottom: 32px;
   margin-top: 32px;
